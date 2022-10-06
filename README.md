@@ -6,7 +6,7 @@ Here you can search the name of the country and find some information about it, 
 | -------------  | --- |
 | :sparkles: Nome        | Country Search
 | :label: Tecnologias | html, css, javascript
-| :rocket: URL         | countrysearchinfos.netlify.app
+| :rocket: URL         | www.countrysearchinfos.netlify.app.com
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://user-images.githubusercontent.com/72042885/194385925-ddcb8898-68d3-4c93-b15d-fe36eaefcfc3.JPG#vitrinedev)
