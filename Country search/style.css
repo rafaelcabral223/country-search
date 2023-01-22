@@ -34,6 +34,7 @@ body {
    color: #e2e2e2;
    padding: 0.8em 0;
    border: none;
+   cursor: pointer;
    border-radius: 1.5em;
 }
 
