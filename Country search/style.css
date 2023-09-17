@@ -34,7 +34,6 @@ body {
    color: #e2e2e2;
    padding: 0.8em 0;
    border: none;
-   cursor: pointer;
    border-radius: 1.5em;
 }
 
@@ -91,44 +90,30 @@ body {
    color: #ff465a;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 520px) {
+   .container {
+      padding: 2em 1.25em;
+   }
+
    .search-wrapper {
       display: flex;
-      justify-content: space-around;
-      align-items: center;
+      flex-direction: column;
+      gap: 0.75rem;
    }
-   
+
    .search-wrapper button {
-      font-size: 0.45em;
-      display: flex;
-      padding: 1em 1em;
-      margin: 0.7em 0;
-      cursor: pointer;
-   }
-   
-   .search-wrapper input {
-      font-size: 0.8em;
-      padding: 0 0.5em;
+      margin: 0.75rem;
    }
 }
 
-@media screen and (max-width: 350px) {
-      .search-wrapper {
-         display: flex;
-         justify-content: space-around;
-         align-items: center;
-      }
-      
-      .search-wrapper button {
-         font-size: 0.25em;
-         display: flex;
-         padding: 1em 1em;
-         margin: 0.5em 0;
-         cursor: pointer;
-      }
-      
-      .search-wrapper input {
-         font-size: 0.25em;
-         padding: 0 0.5em;
-      }
+@media screen and (max-width: 341px) {
+   .search-wrapper input {
+      margin: 0.75rem;
+      font-size: .90rem;
    }
+
+   .container .flag-img {
+      width: 75%;
+      margin: 1.3em auto .75em auto;
+   }
+}
